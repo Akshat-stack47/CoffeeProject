@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+.but{
+    display: flex;
+    background-color: green;
+    border-radius: 4px;
+    color: white; 
+    width: 200px;
+    height: 30px;
+    top: 5px;
+    justify-content:center;
+    padding-left:20px; 
+    padding-right: 30px;
+    padding-top: 5px;
+    gap: 10px;
+    cursor: pointer;
+}               
+.kuch{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+.too{
+   text-decoration:line-through;
+}
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(242, 203, 135);
+   height: 100vh;
+   overflow-x: hidden;
+}
+.car{
+    background-color: green;
+    height: 15px;
+    width: 15px;
+}
+.box{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: rgb(251, 247, 247);
+    height: 400px;
+    width: 800px;
+    border-radius: 30px;
+}
+.sideimage{
+    display: flex;
+    position: absolute;
+    height: 100%;
+     width: 50%;
+     background-color: red;
+}
+.sidebox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 510px;
+    width:50%;
+    height: 100%;
+}
+.coffee{
+    width:100%;
+}
+
